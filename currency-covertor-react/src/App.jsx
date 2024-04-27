@@ -1,8 +1,11 @@
 import Form from "./Form";
+import useCurrencyInfo from "./hooks/useCurrencyInfo";
 
 const App = () => {
   const firstName = Form("");
   const lastName = Form("");
+
+  console.log(useCurrencyInfo);
   return (
     <form>
       <label>
